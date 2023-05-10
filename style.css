@@ -1,0 +1,171 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+.bg
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: top;
+    filter: hue-rotate(160deg);
+    opacity: 0.5;
+    z-index: -1;
+}
+.menu img
+{
+    height: 40px;
+    width: 40px;
+}
+.menu
+{
+    background: #ffffff;
+    box-shadow: 1px 1px 20px #aaa;
+    display: flex;
+    flex-direction:column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+}
+.logo
+{
+    text-align: center;
+}
+.menu a:hover
+{
+    background: #00ff6a;
+}
+.nav a:hover img
+{
+    transform: rotate(15dej) translateX(20px);
+}
+.heder
+{
+    margin-left: 90px;
+    width: 100%;
+}
+.clacc
+{
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    width: 499px;
+}
+.left
+{
+    width: 50%;
+    background: url("images/kapibara.jpg") center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+}
+.right
+{
+    width: 50%;
+}
+.plant-facts
+{
+    width: 100%;
+    display: flex;
+    padding: 100px;
+}
+.picture
+{
+    margin-left: 90px;
+}
+.picture-title
+{
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+}
+.pic_title_pacet img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.picture-content
+{
+    display: flex;
+    justify-content: space-around;
+}
+.picture-item img
+{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 30px;
+}
+.picture-item
+{
+    position: relative;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.element-texta
+{
+    position: relative;
+    z-index: 10;
+}
+.element-texta
+{
+    padding: 10px;
+    background: white;
+    opacity: 0.5;
+    width: fit-content;
+    border-radius: 1000px;
+    text-align: center;
+}
+.menu1
+{
+    margin: 0 auto;
+}
+.detalmenu
+{
+    display: flex;
+    flex-direction:column ;
+    padding: 15px;
+    align-items: center;
+}
+.text1
+{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+input
+{
+    padding: 8px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 3px 2px 2px red;
+    background-color: black;
+    color: gold;
+}
+.baton
+{
+    background-color: black;
+    color: gold;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 3px 2px 2px red;
+}
